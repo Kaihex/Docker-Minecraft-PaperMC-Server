@@ -42,6 +42,8 @@ VOLUME "/data"
 # Expose minecraft port
 EXPOSE 25565/tcp
 EXPOSE 25565/udp
+EXPOSE 8080/tcp
+EXPOSE 11025/udp
 
 # Set memory size
 ARG memory_size=3G
